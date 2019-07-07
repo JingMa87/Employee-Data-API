@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.wixsite.jingmacv.model.Address;
 import com.wixsite.jingmacv.model.Employee;
-import com.wixsite.jingmacv.repository.EmployeeService;
+import com.wixsite.jingmacv.service.EmployeeService;
 import com.wixsite.jingmacv.util.HTTPHeaderUtil;
 
 /*

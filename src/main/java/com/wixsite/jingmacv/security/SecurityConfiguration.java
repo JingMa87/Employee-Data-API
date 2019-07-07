@@ -32,6 +32,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 		http.csrf().disable().authorizeRequests().antMatchers("/*").hasRole("ADMIN")
 		.and().httpBasic().authenticationEntryPoint(authenticationEntryPoint)
         .and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+		http.headers().frameOptions().disable();
 	}
  
     @Bean
