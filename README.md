@@ -1,6 +1,6 @@
 # README
 
-<img src="http://cameronmcefee.com/img/work/the-octocat/walk-3.gif" width="600">
+<img src="http://cameronmcefee.com/img/work/the-octocat/walk-3.gif" width="400">
 
 REST API that uses a multitier architecture and supports CRUD operations to manipulate employee data.
 
